@@ -39,7 +39,7 @@ public class CrimeController {
     //checks if input is correct and connects to the following page
     private void loginCheck(String user, String pw) throws IOException, SQLException {
         Stage stage = new Stage();
-        ResultSet userResultset =  db.getFiltered("users", "users.user=\"" + user + " AND users.password=\"" + pw + "\"");
+        ResultSet userResultset =  db.getFiltered("users", "users.user_name=\"" + user + "\" AND users.password=\"" + pw + "\"");
         if(userResultset.isBeforeFirst()){
             System.out.println("Welcome police man");
             FXMLLoader fxmlLoader = new FXMLLoader(CrimeApplication.class.getResource("police-view.fxml"));
@@ -99,7 +99,6 @@ public class CrimeController {
                     comCrime += resultsetCrime.getString (2);
                     sentence += resultsetCrime.getString(3);
                     weapon += resultsetCrime.getString(6);
-
                 }
                 person.setCrimes(comCrime);
                 person.setWeapon(weapon);

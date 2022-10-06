@@ -1,7 +1,7 @@
-/home/jl/src/tetst/CriminalRecords/src/main/java/module-info.java
-/home/jl/src/tetst/CriminalRecords/src/main/java/com/example/criminal_records/CrimeApplication.java
-/home/jl/src/tetst/CriminalRecords/src/main/java/com/example/criminal_records/CrimeController.java
-/home/jl/src/tetst/CriminalRecords/src/main/java/com/example/criminal_records/Person.java
-/home/jl/src/tetst/CriminalRecords/src/main/java/com/example/criminal_records/util/CheckBoxCellFactory.java
-/home/jl/src/tetst/CriminalRecords/src/main/java/com/example/criminal_records/database/DBLoader.java
-/home/jl/src/tetst/CriminalRecords/src/main/java/com/example/criminal_records/database/DatabaseCommandExecutor.java
+S:\Projects\java\.github\CriminalRecords\src\main\java\com\example\criminal_records\database\DatabaseCommandExecutor.java
+S:\Projects\java\.github\CriminalRecords\src\main\java\com\example\criminal_records\Person.java
+S:\Projects\java\.github\CriminalRecords\src\main\java\module-info.java
+S:\Projects\java\.github\CriminalRecords\src\main\java\com\example\criminal_records\util\CheckBoxCellFactory.java
+S:\Projects\java\.github\CriminalRecords\src\main\java\com\example\criminal_records\CrimeController.java
+S:\Projects\java\.github\CriminalRecords\src\main\java\com\example\criminal_records\CrimeApplication.java
+S:\Projects\java\.github\CriminalRecords\src\main\java\com\example\criminal_records\database\DBLoader.java
